@@ -12,6 +12,15 @@
 		CB449230206F444E007E5728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB44922E206F444E007E5728 /* Main.storyboard */; };
 		CB449232206F444E007E5728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB449231206F444E007E5728 /* Assets.xcassets */; };
 		CB449235206F444E007E5728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB449233206F444E007E5728 /* LaunchScreen.storyboard */; };
+		CB449240206F47BA007E5728 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = CB44923D206F47BA007E5728 /* word_blank.png */; };
+		CB449241206F47BA007E5728 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = CB44923E206F47BA007E5728 /* fin.png */; };
+		CB449242206F47BA007E5728 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB44923F206F47BA007E5728 /* title_logo.png */; };
+		CB449244206F5BB6007E5728 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB449243206F5BB6007E5728 /* QuestionViewController.swift */; };
+		CB449246206F5BEA007E5728 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB449245206F5BEA007E5728 /* FinishViewController.swift */; };
+		CB449248206F6099007E5728 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB449247206F6099007E5728 /* ListTableViewController.swift */; };
+		CB44924A206F60B9007E5728 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB449249206F60B9007E5728 /* AddViewController.swift */; };
+		CB449253206FE4CD007E5728 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB449251206FE4CD007E5728 /* ListTableViewCell.swift */; };
+		CB449254206FE4CD007E5728 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB449252206FE4CD007E5728 /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		CB449231206F444E007E5728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB449234206F444E007E5728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB449236206F444E007E5728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB44923D206F47BA007E5728 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		CB44923E206F47BA007E5728 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		CB44923F206F47BA007E5728 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		CB449243206F5BB6007E5728 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CB449245206F5BEA007E5728 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		CB449247206F6099007E5728 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		CB449249206F60B9007E5728 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CB449251206FE4CD007E5728 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		CB449252206FE4CD007E5728 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +75,28 @@
 				CB44922A206F444E007E5728 /* AppDelegate.swift */,
 				CB44922C206F444E007E5728 /* ViewController.swift */,
 				CB44922E206F444E007E5728 /* Main.storyboard */,
+				CB44923C206F47BA007E5728 /* WordList素材 */,
 				CB449231206F444E007E5728 /* Assets.xcassets */,
 				CB449233206F444E007E5728 /* LaunchScreen.storyboard */,
 				CB449236206F444E007E5728 /* Info.plist */,
+				CB449243206F5BB6007E5728 /* QuestionViewController.swift */,
+				CB449245206F5BEA007E5728 /* FinishViewController.swift */,
+				CB449247206F6099007E5728 /* ListTableViewController.swift */,
+				CB449249206F60B9007E5728 /* AddViewController.swift */,
+				CB449251206FE4CD007E5728 /* ListTableViewCell.swift */,
+				CB449252206FE4CD007E5728 /* ListTableViewCell.xib */,
 			);
 			path = WordList;
+			sourceTree = "<group>";
+		};
+		CB44923C206F47BA007E5728 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				CB44923D206F47BA007E5728 /* word_blank.png */,
+				CB44923E206F47BA007E5728 /* fin.png */,
+				CB44923F206F47BA007E5728 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,7 +126,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "LIfe is Tech";
 				TargetAttributes = {
 					CB449226206F444E007E5728 = {
@@ -123,9 +158,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB449240206F47BA007E5728 /* word_blank.png in Resources */,
+				CB449242206F47BA007E5728 /* title_logo.png in Resources */,
 				CB449235206F444E007E5728 /* LaunchScreen.storyboard in Resources */,
 				CB449232206F444E007E5728 /* Assets.xcassets in Resources */,
+				CB449241206F47BA007E5728 /* fin.png in Resources */,
 				CB449230206F444E007E5728 /* Main.storyboard in Resources */,
+				CB449254206FE4CD007E5728 /* ListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB449253206FE4CD007E5728 /* ListTableViewCell.swift in Sources */,
 				CB44922D206F444E007E5728 /* ViewController.swift in Sources */,
+				CB449246206F5BEA007E5728 /* FinishViewController.swift in Sources */,
+				CB44924A206F60B9007E5728 /* AddViewController.swift in Sources */,
 				CB44922B206F444E007E5728 /* AppDelegate.swift in Sources */,
+				CB449248206F6099007E5728 /* ListTableViewController.swift in Sources */,
+				CB449244206F5BB6007E5728 /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +221,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +229,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +280,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +288,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -275,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WordList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.WordList;
@@ -289,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WordList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.WordList;
